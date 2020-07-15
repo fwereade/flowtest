@@ -2,9 +2,10 @@ package main
 
 import "fmt"
 
-// _bad_ comment
-func FooBar() {}
+type Greeter interface {
+	Hello() string
+}
 
 main() {
-    fmt.Println("lol hullo")
+	fmt.Println("lol hullo")
 }
